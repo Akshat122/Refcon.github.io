@@ -16,8 +16,22 @@ body {
   font-size: 16px;
   line-height: 1.7;
   color: #828282;
-  background: #fff;
+background: #fff;}
+/*=========================================================
+
+Hidden scroll bar
+
+===========================================================*/
+ ::-webkit-scrollbar
+{
+    width:0px;
 }
+::-webkit-scrollbar-track-piece
+{
+    background-coor:transparent;
+}
+
+
 
 #page {
   position: relative;
@@ -29,6 +43,7 @@ body {
 .offcanvas #page {
   overflow: hidden;
   position: absolute;
+  
 }
 .offcanvas #page:after {
   -webkit-transition: 2s;
@@ -1264,7 +1279,7 @@ h1, h2, h3, h4, h5, h6, figure {
   top: 0;
   bottom: 0;
   padding: 45px 40px 40px 40px;
-  overflow-y: auto;
+  overflow-y: hidden;
   display: none;
   -moz-transform: translateX(270px);
   -webkit-transform: translateX(270px);

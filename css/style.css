@@ -102,6 +102,7 @@ h1, h2, h3, h4, h5, h6, figure {
   top: 0;
   margin: 0;
   padding: 0;
+  height :11%;
   width: 100%;
   padding: 20px 0;
   z-index: 1001;
@@ -336,7 +337,7 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 }
 .fh5co-cover.fh5co-cover-sm {
-  height: 600px;
+  height: 900px;
 }
 @media screen and (max-width: 768px) {
   .fh5co-cover.fh5co-cover-sm {
@@ -592,7 +593,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .fh5co-bg-section {
-  background: #F0F5F9;
+  background: #ffffff;
 }
 
 #fh5co-services,
@@ -920,7 +921,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 #fh5co-services.border-bottom {
-  border-bottom: 1px solid #dae6ef;
+  border-bottom: 1px solid #ffffff;
   -webkit-box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.15);
   -moz-box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.15);
   box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.15);
